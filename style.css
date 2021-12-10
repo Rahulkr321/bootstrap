@@ -1,0 +1,32 @@
+body{
+    background-color: yellow;
+
+}
+.toparea{
+    padding: 50px 0;
+    background-color: violet;
+}
+.toparea img{
+    width: 120px;
+    height: 120px;
+}
+.toparea h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-shadow: yellow 2px 2px 3px;
+}
+.boxarea{
+    padding: 50px 0px;
+}
+.box{
+    margin: 10px;
+    overflow: hidden;
+}
+.box img{
+    width: 100%;
+    height: auto;
+    transition: all 4s;
+}
+.box img:hover{
+    transform: scale(1.2,1.2);
+}
